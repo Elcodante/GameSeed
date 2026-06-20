@@ -48,4 +48,11 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1f; // Resume the game time before loading the main menu
         SceneManager.LoadScene("Main_Menu"); // Load the main menu scene
     }
+
+    public void RestardGame()
+    {
+        Time.timeScale = 1f; // Resume the game time before restarting the game
+        GameIsPaused = false; // Update the paused state
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene to restart the game
+    }
 }
