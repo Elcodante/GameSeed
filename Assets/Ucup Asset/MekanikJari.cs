@@ -5,10 +5,12 @@ public class MekanikJari : MonoBehaviour
 {
     // Kecepatan putar bisa dibesarkan karena kita mengubah sudut target engsel
     public float kecepatanPutar = 150f;
+    public string namaBagianTangan = "Jari";
 
     private Vector3 posisiMouseLama;
     private HingeJoint engsel;
     private JointSpring perEngsel;
+    private bool sedangDitarik = false;
 
     void Start()
     {
@@ -25,11 +27,42 @@ public class MekanikJari : MonoBehaviour
         engsel.spring = perEngsel;
     }
 
-    void OnMouseDown()
+    void OnMouseEnter()
     {
-        posisiMouseLama = Input.mousePosition;
+        if (!sedangDitarik && UIManagerTangan.instance != null)
+        {
+            UIManagerTangan.instance.TampilkanUI(namaBagianTangan);
+        }
     }
 
+    void OnMouseExit()
+    {
+        if(!sedangDitarik && UIManagerTangan.instance != null)
+        {
+            UIManagerTangan.instance.SembunyikanUI();
+        }
+    }
+
+    void OnMouseDown()
+    {
+        sedangDitarik = true;
+        posisiMouseLama = Input.mousePosition;
+
+        if (UIManagerTangan.instance != null)
+        {
+            UIManagerTangan.instance.SedangDitarik(namaBagianTangan);
+        }
+    }
+
+    void OnMouseUp()
+    {
+        sedangDitarik = false;
+
+        if(UIManagerTangan.instance != null)
+        {
+            UIManagerTangan.instance.SembunyikanUI();
+        }
+    }
     void OnMouseDrag()
     {
         Vector3 bedaGeser = Input.mousePosition - posisiMouseLama;
