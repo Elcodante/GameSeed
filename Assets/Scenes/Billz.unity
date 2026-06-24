@@ -339,7 +339,7 @@ Transform:
   m_GameObject: {fileID: 133803004}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.17, z: 0}
+  m_LocalPosition: {x: 0, y: 0.56, z: -2.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -537,7 +537,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   directionMode: 1
   customDirection: {x: 0, y: 0, z: 1}
-  pushForce: 1000
+  pushForce: 20
   upwardBoost: 2
   cooldown: 1
   oneShot: 0

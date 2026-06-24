@@ -11,9 +11,10 @@ public class TrapPushback : MonoBehaviour
 {
     public enum PushDirectionMode
     {
-        TrapForward,        // arah dorong = transform.forward trap (cocok untuk trap dinding/spring panel)
-        AwayFromTrapCenter, // arah dorong = menjauh dari posisi trap (cocok untuk trap radial/ranjau)
-        CustomDirection     // arah dorong = vector custom yang kamu set sendiri
+        TrapForward,             // arah dorong = transform.forward trap (cocok untuk trap dinding/spring panel)
+        AwayFromTrapCenter,      // arah dorong = menjauh dari posisi trap (cocok untuk trap radial/ranjau)
+        CustomDirection,         // arah dorong = vector custom yang kamu set sendiri
+        ReverseOfIncomingVelocity // arah dorong = kebalikan arah gerak Player saat kena trap (paling natural)
     }
 
     [Header("Deteksi")]
