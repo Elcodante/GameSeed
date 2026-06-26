@@ -22,6 +22,7 @@ public class MekanikJari : MonoBehaviour
         perEngsel = engsel.spring;
 
         // Memberikan kekuatan pada engsel agar kuat menahan posisinya
+        // (Pastikan angka spring ini sesuai dengan kekuatan kuli yang udah berhasil tadi ya!)
         perEngsel.spring = 1000f;
         perEngsel.damper = 50f;
         engsel.spring = perEngsel;
@@ -37,7 +38,7 @@ public class MekanikJari : MonoBehaviour
 
     void OnMouseExit()
     {
-        if(!sedangDitarik && UIManagerTangan.instance != null)
+        if (!sedangDitarik && UIManagerTangan.instance != null)
         {
             UIManagerTangan.instance.SembunyikanUI();
         }
@@ -56,15 +57,24 @@ public class MekanikJari : MonoBehaviour
 
     void OnMouseUp()
     {
-        sedangDitarik = false;
-
-        if(UIManagerTangan.instance != null)
-        {
-            UIManagerTangan.instance.SembunyikanUI();
-        }
+        LepasPegangan(); // Kita panggil fungsi khusus di bawah biar rapi
     }
+
     void OnMouseDrag()
     {
+        // 1. Kalau status sedangDitarik = false (berarti udah lepas pegangan), hentikan proses!
+        if (!sedangDitarik) return;
+
+        // 2. DETEKTOR BATAS LAYAR!
+        // Jika kursor keluar dari tepi kiri (0), kanan (Screen.width), bawah (0), atau atas (Screen.height)
+        if (Input.mousePosition.x < 0 || Input.mousePosition.x > Screen.width ||
+            Input.mousePosition.y < 0 || Input.mousePosition.y > Screen.height)
+        {
+            LepasPegangan(); // Paksa lepas pegangan!
+            return; // Hentikan kode putaran di bawahnya
+        }
+
+        // --- Logika perputaran jarimu yang sudah benar ---
         Vector3 bedaGeser = Input.mousePosition - posisiMouseLama;
 
         // Hitung seberapa jauh sudut harus berubah
@@ -73,13 +83,22 @@ public class MekanikJari : MonoBehaviour
         // Ubah target posisi sudut engsel, bukan transform-nya!
         perEngsel.targetPosition += putaran;
 
-        // (Opsional) Jika kamu sudah mengatur Limits di HingeJoint agar jari tidak bisa 
-        // melengkung ke belakang, hapus tanda komentar pada baris di bawah ini:
-        // perEngsel.targetPosition = Mathf.Clamp(perEngsel.targetPosition, engsel.limits.min, engsel.limits.max);
-
         // Terapkan kembali ke engsel
         engsel.spring = perEngsel;
 
         posisiMouseLama = Input.mousePosition;
+    }
+
+    // --- FUNGSI BARU: Untuk membereskan UI dan Status saat jari dilepas ---
+    private void LepasPegangan()
+    {
+        if (sedangDitarik)
+        {
+            sedangDitarik = false;
+            if (UIManagerTangan.instance != null)
+            {
+                UIManagerTangan.instance.SembunyikanUI();
+            }
+        }
     }
 }
