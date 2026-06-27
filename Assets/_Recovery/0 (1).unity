@@ -640,13 +640,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14106436, y: 0.6631738, z: -0.14618033, w: 0.7203699}
-  m_LocalPosition: {x: 6.887, y: -2.703, z: 2.128}
+  m_LocalRotation: {x: 0.19060093, y: 0.6654884, z: -0.1816095, w: 0.69843715}
+  m_LocalPosition: {x: 6.717, y: -2.623, z: 1.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 23.398, y: 84.962, z: -1.468}
+  m_LocalEulerAnglesHint: {x: 30.528, y: 87.232, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,13 +700,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b788ae730166e2479d7a2b568620c5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::KameraFollow
-  target: {fileID: 543450651776403293}
-  kecepatanKamera: 10
-  kecepatanZoom: 20
-  batasDekat: 3
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrain
+  ShowDebugText: 0
+  ShowCameraFrustum: 1
+  IgnoreTimeScale: 0
+  WorldUpOverride: {fileID: 0}
+  ChannelMask: -1
+  UpdateMethod: 2
+  BlendUpdateMethod: 1
+  LensModeOverride:
+    Enabled: 0
+    DefaultMode: 2
+  DefaultBlend:
+    Style: 1
+    Time: 2
+    CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  CustomBlends: {fileID: 0}
 --- !u!1 &366546055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,8 +1718,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.015839256, y: 0.04, z: 0.000949457}
-  m_Center: {x: 0.016434634, y: -0.03, z: -0.0021252714}
+  m_Size: {x: 0.015839256, y: 0.04, z: 0.0008335641}
+  m_Center: {x: 0.016434634, y: -0.03, z: -0.0021832178}
 --- !u!1 &879641482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dbdbb6cc9354a1645b1bce0d5d2d71d8, type: 3}
@@ -3742,10 +3758,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8624070708227018349}
+  - component: {fileID: 8624070708227018350}
   - component: {fileID: 8624070708227018351}
   - component: {fileID: 8624070708227018352}
   - component: {fileID: 8624070708227018353}
-  - component: {fileID: 8624070708227018354}
   m_Layer: 0
   m_Name: Telunjuk.002
   m_TagString: Untagged
@@ -3910,7 +3926,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147856842215}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 5a43eeb9f50c9e848a97f37fa7b4d36f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -4158,10 +4174,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4243062531654278182}
+  - component: {fileID: 4243062531654278186}
   - component: {fileID: 4243062531654278183}
   - component: {fileID: 4243062531654278185}
   - component: {fileID: 4243062531654278184}
-  - component: {fileID: 4243062531654278186}
   m_Layer: 0
   m_Name: Jempol.002
   m_TagString: Untagged
@@ -4257,10 +4273,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9117120371174377066}
+  - component: {fileID: 9117120371174377067}
   - component: {fileID: 9117120371174377069}
   - component: {fileID: 9117120371174377068}
   - component: {fileID: 9117120371174377070}
-  - component: {fileID: 9117120371174377071}
   m_Layer: 0
   m_Name: Tengah.003
   m_TagString: Untagged
@@ -4371,10 +4387,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1864452008315407829}
+  - component: {fileID: 3782145811742547624}
   - component: {fileID: 3782145811742547625}
   - component: {fileID: 3782145811742547626}
   - component: {fileID: 3782145811742547627}
-  - component: {fileID: 3782145811742547628}
   m_Layer: 0
   m_Name: Tengah.002
   m_TagString: Untagged
@@ -4382,6 +4398,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &3782145811742547624
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3782145811742547623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0012391142
+  m_Height: 0.0052121663
+  m_Direction: 1
+  m_Center: {x: 0.00010620005, y: 0.00033401023, z: 5.1978083e-13}
 --- !u!54 &3782145811742547625
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4390,7 +4429,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3782145811742547623}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4408,7 +4447,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!59 &3782145811742547626
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4460,29 +4499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &3782145811742547628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3782145811742547623}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.002062682, y: 0.0042655948, z: 0.0020745813}
-  m_Center: {x: 0.000007882052, y: 0.00026298917, z: 1.4940974e-12}
 --- !u!1 &3891045923746203428
 GameObject:
   m_ObjectHideFlags: 0
@@ -4572,7 +4590,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2331530907171938729}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4603,7 +4621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 30
+  kecepatanPutar: 20
   namaBagianTangan: Jari
 --- !u!59 &4243062531654278185
 HingeJoint:
@@ -4616,7 +4634,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 6293370838594585498}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: 1}
+  m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4644,8 +4662,8 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!65 &4243062531654278186
-BoxCollider:
+--- !u!136 &4243062531654278186
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4662,9 +4680,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0021870653, y: 0.0047630575, z: 0.002074581}
-  m_Center: {x: -0.0002037694, y: 0.0017887607, z: -0.0000000035203305}
+  serializedVersion: 2
+  m_Radius: 0.0015133879
+  m_Height: 0.005343647
+  m_Direction: 1
+  m_Center: {x: -2.0222457e-10, y: 0.0011382329, z: -4.1391696e-10}
 --- !u!4 &4640368828451724388
 Transform:
   m_ObjectHideFlags: 0
@@ -4698,10 +4718,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 717951174108154996}
+  - component: {fileID: 5315625031824376348}
   - component: {fileID: 5315625031824376349}
   - component: {fileID: 5315625031824376350}
   - component: {fileID: 5315625031824376351}
-  - component: {fileID: 5315625031824376352}
   m_Layer: 0
   m_Name: Telunjuk.001
   m_TagString: Untagged
@@ -4709,6 +4729,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &5315625031824376348
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5315625031824376347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0014441863
+  m_Height: 0.007709121
+  m_Direction: 1
+  m_Center: {x: -0.00011339851, y: 0.0016267378, z: 0.00017978161}
 --- !u!54 &5315625031824376349
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4717,7 +4760,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5315625031824376347}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4787,29 +4830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &5315625031824376352
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5315625031824376347}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0024824922, y: 0.0048138998, z: 0.002074581}
-  m_Center: {x: -0.00018493494, y: 0.0018058174, z: -4.9267346e-10}
 --- !u!1 &5683099755583963388
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,10 +4857,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3544962573746326278}
+  - component: {fileID: 5833654486128058441}
   - component: {fileID: 5833654486128058440}
   - component: {fileID: 5833654486128058439}
   - component: {fileID: 5833654486128058438}
-  - component: {fileID: 5833654486128058441}
   m_Layer: 0
   m_Name: Jempol.003
   m_TagString: Untagged
@@ -4858,7 +4880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 30
+  kecepatanPutar: 20
   namaBagianTangan: Jari
 --- !u!59 &5833654486128058439
 HingeJoint:
@@ -4871,7 +4893,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 4243062531654278183}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: 1}
+  m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4907,7 +4929,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5833654486128058437}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4926,8 +4948,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &5833654486128058441
-BoxCollider:
+--- !u!136 &5833654486128058441
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4944,9 +4966,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0018432924, y: 0.0039798226, z: 0.0020745813}
-  m_Center: {x: -0.000097849246, y: 0.0015993322, z: -0.00007641031}
+  serializedVersion: 2
+  m_Radius: 0.0010732868
+  m_Height: 0.0044214483
+  m_Direction: 1
+  m_Center: {x: 0.0000027666415, y: 0.0011997655, z: 8.522391e-10}
 --- !u!1 &5880451109259485478
 GameObject:
   m_ObjectHideFlags: 0
@@ -5004,10 +5028,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7660557931551147975}
+  - component: {fileID: 7660557931551147976}
   - component: {fileID: 7660557931551147978}
   - component: {fileID: 7660557931551147977}
   - component: {fileID: 7660557931551147979}
-  - component: {fileID: 7660557931551147980}
   m_Layer: 0
   m_Name: Telunjuk.003
   m_TagString: Untagged
@@ -5268,6 +5292,29 @@ Transform:
   - {fileID: 526474527276618902}
   m_Father: {fileID: 8624070708227018349}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7660557931551147976
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6185058306895285079}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0008071394
+  m_Height: 0.0035199255
+  m_Direction: 1
+  m_Center: {x: 0.000085801374, y: 0.0012601283, z: 0.00004819507}
 --- !u!59 &7660557931551147977
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -5315,7 +5362,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6185058306895285079}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5346,29 +5393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &7660557931551147980
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6185058306895285079}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0018998664, y: 0.0040234593, z: 0.002077047}
-  m_Center: {x: -0.000030392865, y: 0.0009381739, z: -0.0000012320126}
 --- !u!1 &7699963532943291072
 GameObject:
   m_ObjectHideFlags: 0
@@ -5534,6 +5560,29 @@ Transform:
   - {fileID: 7660557931551147975}
   m_Father: {fileID: 717951174108154996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &8624070708227018350
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347067662879516252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.001132914
+  m_Height: 0.004544137
+  m_Direction: 1
+  m_Center: {x: -3.847144e-10, y: 0.0012984319, z: -0.000000016604764}
 --- !u!54 &8624070708227018351
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5542,7 +5591,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347067662879516252}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5612,29 +5661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &8624070708227018354
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347067662879516252}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0017887064, y: 0.0040265406, z: 0.002074581}
-  m_Center: {x: -0.000046065223, y: 0.00040142643, z: -2.9633983e-11}
 --- !u!4 &8687759026440239734
 Transform:
   m_ObjectHideFlags: 0
@@ -5723,10 +5751,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9042562652742405415}
+  - component: {fileID: 9116828831989118829}
   - component: {fileID: 9116828831989118830}
   - component: {fileID: 9116828831989118831}
   - component: {fileID: 9116828831989118832}
-  - component: {fileID: 9116828831989118833}
   m_Layer: 0
   m_Name: Tengah.001
   m_TagString: Untagged
@@ -5734,6 +5762,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!136 &9116828831989118829
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116828831989118828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0015342343
+  m_Height: 0.0061612846
+  m_Direction: 1
+  m_Center: {x: -0.00009004729, y: 0.0004854597, z: -5.273129e-12}
 --- !u!54 &9116828831989118830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5742,7 +5793,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9116828831989118828}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5760,7 +5811,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!59 &9116828831989118831
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -5812,29 +5863,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &9116828831989118833
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9116828831989118828}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0022461454, y: 0.0040562116, z: 0.0020745813}
-  m_Center: {x: -0.000082812934, y: 0.0011913446, z: 1.480507e-11}
 --- !u!4 &9117120371174377066
 Transform:
   m_ObjectHideFlags: 0
@@ -5851,6 +5881,29 @@ Transform:
   - {fileID: 2661044127857894939}
   m_Father: {fileID: 1864452008315407829}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &9117120371174377067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275765768174879267}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.0009000271
+  m_Height: 0.004824536
+  m_Direction: 1
+  m_Center: {x: -0.00014064558, y: 0.000652299, z: 0.00010258309}
 --- !u!59 &9117120371174377068
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -5898,7 +5951,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3275765768174879267}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 0.5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5916,7 +5969,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!114 &9117120371174377070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5929,29 +5982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 20
   namaBagianTangan: Jari
---- !u!65 &9117120371174377071
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3275765768174879267}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0016946533, y: 0.0046012, z: 0.002074581}
-  m_Center: {x: -0.000074320604, y: 0.00074372045, z: 3.777404e-11}
 --- !u!1 &9159066752009297161
 GameObject:
   m_ObjectHideFlags: 0
