@@ -89,7 +89,6 @@ public class MekanikJari : MonoBehaviour
         posisiMouseLama = Input.mousePosition;
     }
 
-    // --- FUNGSI BARU: Untuk membereskan UI dan Status saat jari dilepas ---
     private void LepasPegangan()
     {
         if (sedangDitarik)
