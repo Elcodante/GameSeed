@@ -3,45 +3,44 @@ using UnityEngine;
 [RequireComponent(typeof(HingeJoint))]
 public class MekanikJari : MonoBehaviour
 {
-    // Kecepatan putar bisa dibesarkan karena kita mengubah sudut target engsel
-    public float kecepatanPutar = 150f;
-    public string namaBagianTangan = "Jari";
+    [Header("Pengaturan Jari")]
+    public float kecepatanPutar = 1f;
+    public string namaBagianTangan = "Jari Tengah";
 
-    private Vector3 posisiMouseLama;
+    private Vector2 posisiMouseLama;
     private HingeJoint engsel;
     private JointSpring perEngsel;
     private bool sedangDitarik = false;
+    private Camera kameraUtama;
+
+    private Vector2 arahTarikanTerkunci;
 
     void Start()
     {
-        // Mengambil komponen HingeJoint di jari ini
         engsel = GetComponent<HingeJoint>();
-
-        // Menyalakan fitur otot/pegas pada engsel
         engsel.useSpring = true;
         perEngsel = engsel.spring;
 
-        // Memberikan kekuatan pada engsel agar kuat menahan posisinya
-        // (Pastikan angka spring ini sesuai dengan kekuatan kuli yang udah berhasil tadi ya!)
         perEngsel.spring = 1000f;
         perEngsel.damper = 50f;
         engsel.spring = perEngsel;
+
+        kameraUtama = Camera.main;
     }
 
     void OnMouseEnter()
     {
         if (!sedangDitarik && UIManagerTangan.instance != null)
         {
-            UIManagerTangan.instance.TampilkanUI(namaBagianTangan);
+            // PERUBAHAN: Kirimkan "transform" (dirinya sendiri) ke UI
+            UIManagerTangan.instance.MulaiSorot(namaBagianTangan, transform);
         }
     }
 
     void OnMouseExit()
     {
         if (!sedangDitarik && UIManagerTangan.instance != null)
-        {
-            UIManagerTangan.instance.SembunyikanUI();
-        }
+            UIManagerTangan.instance.BerhentiSorot();
     }
 
     void OnMouseDown()
@@ -49,43 +48,37 @@ public class MekanikJari : MonoBehaviour
         sedangDitarik = true;
         posisiMouseLama = Input.mousePosition;
 
+        Vector3 sumbuDunia = transform.TransformDirection(engsel.axis);
+        Vector3 posisiLayar = kameraUtama.WorldToScreenPoint(transform.position);
+        Vector3 ujungSumbuLayar = kameraUtama.WorldToScreenPoint(transform.position + sumbuDunia);
+
+        Vector2 arahSumbuLayar = new Vector2(ujungSumbuLayar.x - posisiLayar.x, ujungSumbuLayar.y - posisiLayar.y).normalized;
+        arahTarikanTerkunci = new Vector2(-arahSumbuLayar.y, arahSumbuLayar.x);
+
         if (UIManagerTangan.instance != null)
-        {
             UIManagerTangan.instance.SedangDitarik(namaBagianTangan);
-        }
     }
 
     void OnMouseUp()
     {
-        LepasPegangan(); // Kita panggil fungsi khusus di bawah biar rapi
+        LepasPegangan();
     }
 
     void OnMouseDrag()
     {
-        // 1. Kalau status sedangDitarik = false (berarti udah lepas pegangan), hentikan proses!
         if (!sedangDitarik) return;
 
-        // 2. DETEKTOR BATAS LAYAR!
-        // Jika kursor keluar dari tepi kiri (0), kanan (Screen.width), bawah (0), atau atas (Screen.height)
-        if (Input.mousePosition.x < 0 || Input.mousePosition.x > Screen.width ||
-            Input.mousePosition.y < 0 || Input.mousePosition.y > Screen.height)
-        {
-            LepasPegangan(); // Paksa lepas pegangan!
-            return; // Hentikan kode putaran di bawahnya
-        }
+        Vector2 bedaGeser = (Vector2)Input.mousePosition - posisiMouseLama;
+        float putaran = Vector2.Dot(bedaGeser, arahTarikanTerkunci) * kecepatanPutar;
 
-        // --- Logika perputaran jarimu yang sudah benar ---
-        Vector3 bedaGeser = Input.mousePosition - posisiMouseLama;
-
-        // Hitung seberapa jauh sudut harus berubah
-        float putaran = -bedaGeser.y * kecepatanPutar * Time.deltaTime;
-
-        // Ubah target posisi sudut engsel, bukan transform-nya!
         perEngsel.targetPosition += putaran;
 
-        // Terapkan kembali ke engsel
-        engsel.spring = perEngsel;
+        if (engsel.useLimits)
+        {
+            perEngsel.targetPosition = Mathf.Clamp(perEngsel.targetPosition, engsel.limits.min, engsel.limits.max);
+        }
 
+        engsel.spring = perEngsel;
         posisiMouseLama = Input.mousePosition;
     }
 
@@ -95,9 +88,7 @@ public class MekanikJari : MonoBehaviour
         {
             sedangDitarik = false;
             if (UIManagerTangan.instance != null)
-            {
-                UIManagerTangan.instance.SembunyikanUI();
-            }
+                UIManagerTangan.instance.BerhentiSorot();
         }
     }
 }

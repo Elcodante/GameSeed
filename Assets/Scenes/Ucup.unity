@@ -1107,10 +1107,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b788ae730166e2479d7a2b568620c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KameraFollow
-  target: {fileID: 5374388621470923545}
-  kecepatanKamera: 10
-  kecepatanZoom: 200
-  batasDekat: 0.5
+  target: {fileID: 4646651761530432788}
+  kecepatanPutar: 60
+  kecepatanZoom: 100
+  kehalusanZoom: 10
+  jarakMinimal: 0.6
+  jarakMaksimal: 4
+  batasBawahY: 10
+  batasAtasY: 85
 --- !u!1 &35013475194821450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,7 +1124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 457816612356755701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Telunjuk.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5412074865177662107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Telunjuk.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,7 +1188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6394712571189762955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tengah.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4804326766059374115}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_middle.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1247,7 +1251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7321924716779126863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tengah.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1296,7 +1300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5365382366687476761}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jempol.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 253350712296560212}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jempol.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1383,7 @@ GameObject:
   - component: {fileID: 5600216215253902068}
   - component: {fileID: 5600216215253902067}
   - component: {fileID: 5600216215253902070}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_index.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 775445980854182365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: palm.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8347655267305481368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: palm.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,7 +1528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6355597761457220909}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: palm.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1586,7 +1590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5020655491097398717}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_pinky.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1685,7 +1689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1442250726741900787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jempol.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1827,7 +1831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1738027209883360351}
   - component: {fileID: 6215987842293255096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: V2.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1843,7 +1847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6781186526241563988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_ring.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1894,7 +1898,7 @@ GameObject:
   - component: {fileID: 2344702073504041528}
   - component: {fileID: 2344702073504041527}
   - component: {fileID: 2344702073504041530}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_middle.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1910,7 +1914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4332516141230278414}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: metarig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,7 +1965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari tengah Tengah
 --- !u!59 &2344702073504041528
 HingeJoint:
@@ -1987,12 +1991,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2107,7 +2111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4974699420607097842}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Telunjuk.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2210,7 +2214,7 @@ GameObject:
   - component: {fileID: 3214452730603628494}
   - component: {fileID: 3214452730603628493}
   - component: {fileID: 3214452730603628496}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_index.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2226,7 +2230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1279980615354565485}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_ring.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2277,7 +2281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari telunjuk atas
 --- !u!59 &3214452730603628494
 HingeJoint:
@@ -2303,12 +2307,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -2375,7 +2379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3901661726286228359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2427,7 +2431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4169532541809686814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Telunjuk.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2443,7 +2447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2320457841868764482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: palm.04.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2459,7 +2463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6965067892809489299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: thumb.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6401092421989824956}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_ring.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2723,7 +2727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4883519331617983762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jempol.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2758,7 +2762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 249879958462551773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Manis.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5766954590796097798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bone.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2790,7 +2794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5374388621470923545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TanganV2.3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,7 +3072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6459930521929962940}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_pinky.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3337,7 +3341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari telunjukatas
 --- !u!59 &5600216215253902068
 HingeJoint:
@@ -3363,12 +3367,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -3500,7 +3504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 961121698033947459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_pinky.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3739,7 +3743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9131835387497980503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tengah.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3770,7 +3774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2396714980354335674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kelingking.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3786,7 +3790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7616831360252617594}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Manis.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3802,7 +3806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2174312228035304398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_ring.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3850,7 +3854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3006747578817857004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: thumb.02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3900,7 +3904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2773597709763915741}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: thumb.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3916,7 +3920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2887563005391485189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3932,7 +3936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5042423167439270392}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kelingking.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4086,7 +4090,7 @@ GameObject:
   - component: {fileID: 6259683388928094838}
   - component: {fileID: 7411899828121743115}
   - component: {fileID: 7411899828121743114}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: forearm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4166,7 +4170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8079842363576174959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Manis.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142360587457756107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: thumb.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4218,7 +4222,7 @@ GameObject:
   - component: {fileID: 7762579442160102362}
   - component: {fileID: 7762579442160102361}
   - component: {fileID: 7762579442160102364}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4237,7 +4241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 30
+  kecepatanPutar: 2
   namaBagianTangan: Telapak Tangan
 --- !u!59 &7762579442160102362
 HingeJoint:
@@ -4263,12 +4267,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
-    max: 0
+    min: -45
+    max: 45
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -4351,7 +4355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925161112972155430}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kelingking.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4488,7 +4492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5029208903001738797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Kelingking.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4625,7 +4629,7 @@ GameObject:
   - component: {fileID: 8077189915588688130}
   - component: {fileID: 8077189915588688129}
   - component: {fileID: 8077189915588688132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_middle.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4644,7 +4648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari tengah Atas
 --- !u!59 &8077189915588688130
 HingeJoint:
@@ -4670,12 +4674,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -4757,7 +4761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6257882062115096090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Manis.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4821,7 +4825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5298666571132331789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_index.03.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4841,7 +4845,7 @@ GameObject:
   - component: {fileID: 8791041100037166377}
   - component: {fileID: 8791041100037166376}
   - component: {fileID: 8791041100037166379}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_index.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4860,7 +4864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari telunjuk bawah
 --- !u!59 &8791041100037166377
 HingeJoint:
@@ -4886,12 +4890,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -5022,7 +5026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4399713542716208363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tengah.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5159,7 +5163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7454561535229083572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_pinky.01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5179,7 +5183,7 @@ GameObject:
   - component: {fileID: 9130427110380461476}
   - component: {fileID: 9130427110380461475}
   - component: {fileID: 9130427110380461478}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: f_middle.03.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5198,7 +5202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 35
+  kecepatanPutar: 2
   namaBagianTangan: Ruas Jari tengah Bawah
 --- !u!59 &9130427110380461476
 HingeJoint:
@@ -5224,12 +5228,12 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
     min: 0
-    max: 0
+    max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
