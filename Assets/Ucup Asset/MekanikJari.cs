@@ -7,6 +7,10 @@ public class MekanikJari : MonoBehaviour
     public float kecepatanPutar = 1f;
     public string namaBagianTangan = "Jari Tengah";
 
+    [Header("Perbaikan Arah")]
+    [Tooltip("Centang kotak ini jika saat mouse ditarik ke atas, jari malah ke bawah")]
+    public bool balikArahGerak = false;
+
     private Vector2 posisiMouseLama;
     private HingeJoint engsel;
     private JointSpring perEngsel;
@@ -32,7 +36,6 @@ public class MekanikJari : MonoBehaviour
     {
         if (!sedangDitarik && UIManagerTangan.instance != null)
         {
-            // PERUBAHAN: Kirimkan "transform" (dirinya sendiri) ke UI
             UIManagerTangan.instance.MulaiSorot(namaBagianTangan, transform);
         }
     }
@@ -69,7 +72,14 @@ public class MekanikJari : MonoBehaviour
         if (!sedangDitarik) return;
 
         Vector2 bedaGeser = (Vector2)Input.mousePosition - posisiMouseLama;
+
+        // Rumus putaran bawaanmu
         float putaran = Vector2.Dot(bedaGeser, arahTarikanTerkunci) * kecepatanPutar;
+
+        if (balikArahGerak)
+        {
+            putaran = -putaran;
+        }
 
         perEngsel.targetPosition += putaran;
 

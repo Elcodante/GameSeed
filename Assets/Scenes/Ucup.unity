@@ -1115,86 +1115,6 @@ MonoBehaviour:
   jarakMaksimal: 4
   batasBawahY: 10
   batasAtasY: 85
---- !u!1 &35013475194821450
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 457816612356755701}
-  m_Layer: 7
-  m_Name: Telunjuk.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &134205159197311646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5412074865177662107}
-  m_Layer: 7
-  m_Name: Telunjuk.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &249879958462551773
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4660694421836457336}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.047048893, y: 0.0011297713, z: -0.0076432386, w: 0.9988627}
-  m_LocalPosition: {x: -1.2406653e-12, y: 0.0042077624, z: -1.44355e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8079842363576174959}
-  m_Father: {fileID: 6257882062115096090}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &253350712296560212
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 602911206224281362}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0038011563, y: 0.004233106, z: -0.2058533, w: 0.97856635}
-  m_LocalPosition: {x: -9.313226e-10, y: 0.0044075693, z: -5.9604643e-10}
-  m_LocalScale: {x: 0.9999999, y: 0.99999976, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1442250726741900787}
-  m_Father: {fileID: 4883519331617983762}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &408789289935837968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6394712571189762955}
-  m_Layer: 7
-  m_Name: Tengah.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &433645113402809435
 Transform:
   m_ObjectHideFlags: 0
@@ -1221,38 +1141,6 @@ GameObject:
   - component: {fileID: 4804326766059374115}
   m_Layer: 7
   m_Name: f_middle.03.R_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &457816612356755701
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35013475194821450}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.048824947, y: 0.00027159866, z: -0.004329416, w: 0.99879795}
-  m_LocalPosition: {x: -7.0818484e-10, y: 0.0038960474, z: -1.6298145e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4169532541809686814}
-  m_Father: {fileID: 4974699420607097842}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &528211400656010768
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7321924716779126863}
-  m_Layer: 7
-  m_Name: Tengah.003_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1291,22 +1179,6 @@ Transform:
   - {fileID: 6125359544932946591}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -92.178, z: 0}
---- !u!1 &557484750159546341
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5365382366687476761}
-  m_Layer: 7
-  m_Name: Jempol.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &582862386426930482
 Transform:
   m_ObjectHideFlags: 0
@@ -1323,22 +1195,6 @@ Transform:
   - {fileID: 5423861499515199029}
   m_Father: {fileID: 7281687028052424645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &602911206224281362
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 253350712296560212}
-  m_Layer: 7
-  m_Name: Jempol.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &636210814607409389
 Transform:
   m_ObjectHideFlags: 0
@@ -1566,21 +1422,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6401092421989824956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1442250726741900787
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945913650866000868}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0039361534, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 253350712296560212}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1443429132443711419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,38 +1505,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5374388621470923545}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1925161112972155430
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7927662298938185339}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0021702133, y: 0.0114827985, z: 0.26760978, w: 0.9634565}
-  m_LocalPosition: {x: -0.0066938973, y: 0.014812896, z: -0.00014259}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5029208903001738797}
-  m_Father: {fileID: 2887563005391485189}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1945913650866000868
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1442250726741900787}
-  m_Layer: 7
-  m_Name: Jempol.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!137 &1971644829779625336
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -1965,8 +1774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
+  kecepatanPutar: 1
   namaBagianTangan: Ruas Jari tengah Tengah
+  balikArahGerak: 1
 --- !u!59 &2344702073504041528
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -1978,7 +1788,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 8077189915588688131}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -1995,7 +1805,7 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
+    min: -40
     max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -2052,24 +1862,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.000319497, y: 0.00044737768, z: 0.000287352}
-  m_Center: {x: 9.75499e-12, y: 0.00005705961, z: 0.00003295088}
---- !u!4 &2396714980354335674
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6596659204946248725}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.07468691, y: 0.004488144, z: -0.02512505, w: 0.9968804}
-  m_LocalPosition: {x: -6.081609e-10, y: 0.0024602225, z: -8.381903e-11}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5042423167439270392}
-  m_Father: {fileID: 5029208903001738797}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.000319497, y: 0.0006670196, z: 0.0003029804}
+  m_Center: {x: 6.246997e-11, y: 0.0004655048, z: 0.000025135083}
 --- !u!1 &2480303541605683241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,22 +1891,6 @@ GameObject:
   - component: {fileID: 6316469252002976998}
   m_Layer: 0
   m_Name: Kelingking.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2587832452676336164
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4974699420607097842}
-  m_Layer: 7
-  m_Name: Telunjuk.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2165,26 +1943,6 @@ Transform:
   m_Children:
   - {fileID: 3006747578817857004}
   m_Father: {fileID: 775445980854182365}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2887563005391485189
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7121561991165520327}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.036547087, y: -0.3013864, z: -0.010413063, w: 0.95274454}
-  m_LocalPosition: {x: 8.614734e-11, y: 0.029935261, z: -3.259629e-11}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5365382366687476761}
-  - {fileID: 1925161112972155430}
-  - {fileID: 7616831360252617594}
-  - {fileID: 4974699420607097842}
-  - {fileID: 9131835387497980503}
-  m_Father: {fileID: 5766954590796097798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2919356444741242511
 Transform:
@@ -2281,8 +2039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
+  kecepatanPutar: 1
   namaBagianTangan: Ruas Jari telunjuk atas
+  balikArahGerak: 1
 --- !u!59 &3214452730603628494
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -2294,7 +2053,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 7762579442160102363}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -2311,7 +2070,7 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
+    min: -60
     max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -2368,24 +2127,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.00031949705, y: 0.000439049, z: 0.00029330238}
-  m_Center: {x: -0.0000093557965, y: -0.00004658349, z: 0.00003576477}
---- !u!1 &3223089666927387085
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3901661726286228359}
-  m_Layer: 7
-  m_Name: Armature
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_Size: {x: 0.00031949705, y: 0.00060924503, z: 0.00027955035}
+  m_Center: {x: -0.000009355789, y: 0.000038514103, z: 0.000042641004}
 --- !u!1 &3359700948183557811
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,22 +2160,6 @@ GameObject:
   - component: {fileID: 7281687028052424647}
   m_Layer: 0
   m_Name: Bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3568811619539987906
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4169532541809686814}
-  m_Layer: 7
-  m_Name: Telunjuk.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2500,6 +2227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Atas
+  balikArahGerak: 0
 --- !u!59 &3721621887510506649
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -2603,22 +2331,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3901661726286228359
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3223089666927387085}
-  serializedVersion: 2
-  m_LocalRotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
-  m_LocalPosition: {x: 0.023928389, y: 0, z: 0.785528}
-  m_LocalScale: {x: 66.42739, y: 66.42739, z: 66.42739}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5766954590796097798}
-  m_Father: {fileID: 5374388621470923545}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3937100708247460323
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,22 +2351,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4169532541809686814
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3568811619539987906}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.05055144, y: 0.0036746294, z: -0.021524636, w: 0.9984827}
-  m_LocalPosition: {x: 1.240636e-10, y: 0.0037552412, z: 1.094304e-10}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5412074865177662107}
-  m_Father: {fileID: 457816612356755701}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4332516141230278414
 Transform:
   m_ObjectHideFlags: 0
@@ -2670,22 +2366,6 @@ Transform:
   m_Children:
   - {fileID: 6259683388928094838}
   m_Father: {fileID: 5374388621470923545}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4399713542716208363
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8916129698229917475}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.034702074, y: 0.00005815505, z: -0.00036444893, w: 0.99939764}
-  m_LocalPosition: {x: 1.3648753e-11, y: 0.0043413425, z: -4.080357e-10}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7321924716779126863}
-  m_Father: {fileID: 6394712571189762955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4413049719322118063
 Transform:
@@ -2718,22 +2398,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &4594686016389709537
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4883519331617983762}
-  m_Layer: 7
-  m_Name: Jempol.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &4646651761530432788
 Transform:
   m_ObjectHideFlags: 0
@@ -2753,38 +2417,6 @@ Transform:
   - {fileID: 2320457841868764482}
   m_Father: {fileID: 6259683388928094838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4660694421836457336
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 249879958462551773}
-  m_Layer: 7
-  m_Name: Manis.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &4663465927851939390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5766954590796097798}
-  m_Layer: 7
-  m_Name: Bone.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &4746364464903528867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,38 +2447,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6806511217875788886}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4883519331617983762
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4594686016389709537}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.14581782, y: 0.0022464106, z: 0.18960515, w: 0.9709696}
-  m_LocalPosition: {x: 2.2351741e-10, y: 0.005715934, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 253350712296560212}
-  m_Father: {fileID: 5365382366687476761}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4974699420607097842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2587832452676336164}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.036280904, y: -0.00072343776, z: -0.07087316, w: 0.99682504}
-  m_LocalPosition: {x: 0.0054508946, y: 0.016179508, z: -0.00010041896}
-  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 457816612356755701}
-  m_Father: {fileID: 2887563005391485189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4990806461162516946
 GameObject:
@@ -2896,37 +2496,6 @@ Transform:
   - {fileID: 961121698033947459}
   m_Father: {fileID: 7454561535229083572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5029208903001738797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8031288584751652585}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.14848755, y: -0.0005784523, z: 0.0056264508, w: 0.9888981}
-  m_LocalPosition: {x: -3.8610884e-10, y: 0.002986986, z: -5.5879353e-11}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2396714980354335674}
-  m_Father: {fileID: 1925161112972155430}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5042423167439270392
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7187497283419596915}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0031976553, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2396714980354335674}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5238635477041763792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,6 +2530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Tengah
+  balikArahGerak: 0
 --- !u!59 &5238635477041763794
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3095,22 +2665,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5365382366687476761
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557484750159546341}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.44040576, y: 0.0144211985, z: -0.26600415, w: 0.8573661}
-  m_LocalPosition: {x: 0.005714621, y: 0.0077237138, z: -0.00022613324}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4883519331617983762}
-  m_Father: {fileID: 2887563005391485189}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5374388621470923545
 Transform:
   m_ObjectHideFlags: 0
@@ -3124,7 +2678,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3901661726286228359}
   - {fileID: 4332516141230278414}
   - {fileID: 1738027209883360351}
   m_Father: {fileID: 0}
@@ -3145,21 +2698,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5412074865177662107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 134205159197311646}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0037267122, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4169532541809686814}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5423861499515199029
 Transform:
   m_ObjectHideFlags: 0
@@ -3226,6 +2764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Tengah
+  balikArahGerak: 0
 --- !u!59 &5576428399122945420
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3341,8 +2880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
-  namaBagianTangan: Ruas Jari telunjukatas
+  kecepatanPutar: 1
+  namaBagianTangan: Ruas Jari telunjuk atas
+  balikArahGerak: 1
 --- !u!59 &5600216215253902068
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3354,7 +2894,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 3214452730603628495}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -3371,7 +2911,7 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
+    min: -40
     max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -3428,8 +2968,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0002942661, y: 0.0004063491, z: 0.0002395492}
-  m_Center: {x: 0.0000052652595, y: -0.000025526298, z: 0.000009983558}
+  m_Size: {x: 0.0002942661, y: 0.0006505688, z: 0.0002395492}
+  m_Center: {x: 0.0000052653836, y: 0.0002930532, z: 0.000009984311}
 --- !u!4 &5649995509309315101
 Transform:
   m_ObjectHideFlags: 0
@@ -3461,22 +3001,6 @@ Transform:
   m_Children:
   - {fileID: 6421279716714918707}
   m_Father: {fileID: 1070359665107174354}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5766954590796097798
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4663465927851939390}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.6672753, y: 0.21708709, z: 0.20965229, w: 0.6809279}
-  m_LocalPosition: {x: -0.0008093568, y: -0.0007057363, z: -0.033169325}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2887563005391485189}
-  m_Father: {fileID: 3901661726286228359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5776171444168116258
 GameObject:
@@ -3623,22 +3147,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00022299855, y: 0.002467039, z: -0.000009388983}
     m_Extent: {x: 0.00072118815, y: 0.0024942276, z: 0.0007797985}
   m_DirtyAABB: 0
---- !u!4 &6257882062115096090
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8134447562392096518}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.005398233, y: -0.0025027206, z: 0.026465496, w: 0.99963206}
-  m_LocalPosition: {x: -1.6030774e-10, y: 0.0042487467, z: 2.0489097e-10}
-  m_LocalScale: {x: 0.99999964, y: 0.99999994, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 249879958462551773}
-  m_Father: {fileID: 7616831360252617594}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6259683388928094838
 Transform:
   m_ObjectHideFlags: 0
@@ -3647,14 +3155,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7411899828121743113}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.33422628, y: -0.59444267, z: 0.67225236, w: -0.28811023}
-  m_LocalPosition: {x: 0.00021717201, y: -0.000011599502, z: 0.00012047427}
+  m_LocalRotation: {x: 0.08161034, y: -0.773173, z: 0.606312, w: 0.16712005}
+  m_LocalPosition: {x: 0.0037624403, y: -0.00093586836, z: 0.0017489205}
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4646651761530432788}
   m_Father: {fileID: 4332516141230278414}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 105.237, y: 37.354004, z: -163.088}
 --- !u!4 &6316469252002976998
 Transform:
   m_ObjectHideFlags: 0
@@ -3687,22 +3195,6 @@ Transform:
   - {fileID: 4991595169015349569}
   m_Father: {fileID: 4646651761530432788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6394712571189762955
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408789289935837968}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.0577264, y: -0.00073075184, z: 0.0053603193, w: 0.99831784}
-  m_LocalPosition: {x: -4.2411692e-11, y: 0.0051929764, z: 1.2863893e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4399713542716208363}
-  m_Father: {fileID: 9131835387497980503}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6401092421989824956
 Transform:
   m_ObjectHideFlags: 0
@@ -3734,22 +3226,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5664127166473705620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6422254566604104696
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9131835387497980503}
-  m_Layer: 7
-  m_Name: Tengah.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &6459930521929962940
 Transform:
   m_ObjectHideFlags: 0
@@ -3765,38 +3241,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 961121698033947459}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6596659204946248725
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2396714980354335674}
-  m_Layer: 7
-  m_Name: Kelingking.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &6637483323735057234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7616831360252617594}
-  m_Layer: 7
-  m_Name: Manis.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &6773018709256086355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3911,38 +3355,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &7121561991165520327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2887563005391485189}
-  m_Layer: 7
-  m_Name: Bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &7187497283419596915
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5042423167439270392}
-  m_Layer: 7
-  m_Name: Kelingking.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &7281687028052424645
 Transform:
   m_ObjectHideFlags: 0
@@ -4004,6 +3416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 30
   namaBagianTangan: Telapak Tangan
+  balikArahGerak: 0
 --- !u!59 &7281687028052424648
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4064,21 +3477,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.016894598, y: 0.015717883, z: 0.007191705}
   m_Center: {x: -0.00041819786, y: 0.006264335, z: -0.0002663355}
---- !u!4 &7321924716779126863
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528211400656010768}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.005215732, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4399713542716208363}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7411899828121743113
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,7 +3520,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 72
+  m_Constraints: 64
   m_CollisionDetection: 0
 --- !u!65 &7411899828121743115
 BoxCollider:
@@ -4160,38 +3558,6 @@ Transform:
   m_Children:
   - {fileID: 5020655491097398717}
   m_Father: {fileID: 2320457841868764482}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7497865154643222942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8079842363576174959}
-  m_Layer: 7
-  m_Name: Manis.003_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7616831360252617594
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6637483323735057234}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.064982, y: -0.0028593515, z: 0.10620858, w: 0.99221414}
-  m_LocalPosition: {x: -0.0031638655, y: 0.01601998, z: -0.0000067779956}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6257882062115096090}
-  m_Father: {fileID: 2887563005391485189}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7620936303390102293
 GameObject:
@@ -4241,8 +3607,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
+  kecepatanPutar: 1
   namaBagianTangan: Telapak Tangan
+  balikArahGerak: 1
 --- !u!59 &7762579442160102362
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4254,7 +3621,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 7411899828121743114}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 0, y: 0, z: -1}
+  m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4346,22 +3713,6 @@ Transform:
   - {fileID: 641017079191027512}
   m_Father: {fileID: 636210814607409389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7927662298938185339
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1925161112972155430}
-  m_Layer: 7
-  m_Name: Kelingking.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &7995793018987312356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +3747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Atas
+  balikArahGerak: 0
 --- !u!59 &7995793018987312358
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4483,22 +3835,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0040401425, y: 0.0049544843, z: 0.004154827}
   m_Center: {x: -0.000024479252, y: -0.0006354558, z: -0.00023809385}
---- !u!1 &8031288584751652585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5029208903001738797}
-  m_Layer: 7
-  m_Name: Kelingking.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &8075513424820992555
 Transform:
   m_ObjectHideFlags: 0
@@ -4529,6 +3865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Bawah
+  balikArahGerak: 0
 --- !u!59 &8075513424820992557
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4648,8 +3985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
+  kecepatanPutar: 1
   namaBagianTangan: Ruas Jari tengah Atas
+  balikArahGerak: 1
 --- !u!59 &8077189915588688130
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -4661,7 +3999,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 7762579442160102363}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4678,7 +4016,7 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: 0
+    min: -60
     max: 90
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -4735,39 +4073,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.00030379498, y: 0.0004532615, z: 0.00031152077}
-  m_Center: {x: -0.000028659344, y: 0.000044257293, z: 0.000058742633}
---- !u!4 &8079842363576174959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7497865154643222942}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0033939104, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 249879958462551773}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8134447562392096518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6257882062115096090}
-  m_Layer: 7
-  m_Name: Manis.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_Size: {x: 0.00030379498, y: 0.00075009285, z: 0.00033776145}
+  m_Center: {x: -0.000028659348, y: 0.00019267229, z: 0.000045623612}
 --- !u!1 &8276642025501470753
 GameObject:
   m_ObjectHideFlags: 0
@@ -4841,10 +4148,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979218801337914647}
-  - component: {fileID: 8791041100037166378}
-  - component: {fileID: 8791041100037166377}
-  - component: {fileID: 8791041100037166376}
-  - component: {fileID: 8791041100037166379}
   m_Layer: 7
   m_Name: f_index.03.R
   m_TagString: Untagged
@@ -4852,107 +4155,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &8791041100037166376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791041100037166375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
-  namaBagianTangan: Ruas Jari telunjuk bawah
---- !u!59 &8791041100037166377
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791041100037166375}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 5600216215253902069}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 1
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 90
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!54 &8791041100037166378
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791041100037166375}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &8791041100037166379
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791041100037166375}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.00026892356, y: 0.00045942515, z: 0.00021508447}
-  m_Center: {x: -0.00000944412, y: 0.00011698135, z: -0.0000123283835}
 --- !u!4 &8879528566837896519
 Transform:
   m_ObjectHideFlags: 0
@@ -5017,22 +4219,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.011766703, y: 0.008568849, z: 0.029415451}
   m_Center: {x: -0.00030848067, y: -0.0010816699, z: -0.019746521}
---- !u!1 &8916129698229917475
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4399713542716208363}
-  m_Layer: 7
-  m_Name: Tengah.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &8978462173869040386
 GameObject:
   m_ObjectHideFlags: 0
@@ -5067,6 +4253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
   kecepatanPutar: 35
   namaBagianTangan: Ruas Jari Bawah
+  balikArahGerak: 0
 --- !u!59 &8978462173869040388
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -5179,10 +4366,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6806511217875788886}
-  - component: {fileID: 9130427110380461477}
-  - component: {fileID: 9130427110380461476}
-  - component: {fileID: 9130427110380461475}
-  - component: {fileID: 9130427110380461478}
   m_Layer: 7
   m_Name: f_middle.03.R
   m_TagString: Untagged
@@ -5190,123 +4373,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &9130427110380461475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9130427110380461474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 860dcecb58bdf1b46991ba777b008821, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MekanikJari
-  kecepatanPutar: 2
-  namaBagianTangan: Ruas Jari tengah Bawah
---- !u!59 &9130427110380461476
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9130427110380461474}
-  serializedVersion: 3
-  m_ConnectedBody: {fileID: 2344702073504041529}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 1
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
-  m_Limits:
-    min: 0
-    max: 90
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
---- !u!54 &9130427110380461477
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9130427110380461474}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &9130427110380461478
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9130427110380461474}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.000319497, y: 0.00056624453, z: 0.00024713806}
-  m_Center: {x: 3.0439995e-12, y: 0.000077674646, z: -0.0000022048478}
---- !u!4 &9131835387497980503
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6422254566604104696}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.059757028, y: -0.0004450209, z: 0.00462423, w: 0.99820215}
-  m_LocalPosition: {x: 0.0011056853, y: 0.016084487, z: -0.00008216895}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6394712571189762955}
-  m_Father: {fileID: 2887563005391485189}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
