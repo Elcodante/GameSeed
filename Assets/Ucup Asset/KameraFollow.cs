@@ -2,60 +2,76 @@ using UnityEngine;
 
 public class KameraFollow : MonoBehaviour
 {
-    // Kotak untuk memasukkan objek induk tangan (Tangan V1)
+    [Header("Target Kamera")]
     public Transform target;
 
-    // Kecepatan gerak dan zoom, bisa diatur di Inspector Unity
-    public float kecepatanKamera = 10f;
-    public float kecepatanZoom = 20f;
+    [Header("Kecepatan & Kehalusan")]
+    public float kecepatanPutar = 60f;
+    public float kecepatanZoom = 2f;     // Kecepatan scroll diturunkan agar lebih presisi
+    public float kehalusanZoom = 10f;    // Semakin kecil angkanya, semakin lambat/mulus meluncurnya
 
-    // Batas jarak agar kamera tidak menabrak / menembus tangan
-    public float batasDekat = 3f;
+    [Header("Batas Zoom (Jarak)")]
+    public float jarakMinimal = 0.8f;    // Disesuaikan dengan rentang yang kamu inginkan
+    public float jarakMaksimal = 5f;
+
+    [Header("Batas Rotasi Atas/Bawah")]
+    public float batasBawahY = 5f;
+    public float batasAtasY = 85f;
+
+    private float yaw = 0f;
+    private float pitch = 30f;
+    private float jarakSaatIni = 5f;     // Posisi asli kamera saat ini
+    private float targetJarak = 5f;      // Posisi tujuan zoom dari scroll mouse
+
+    void Start()
+    {
+        if (target != null)
+        {
+            jarakSaatIni = Vector3.Distance(transform.position, target.position);
+            targetJarak = jarakSaatIni; // Samakan target awal dengan posisi awal
+        }
+    }
 
     void Update()
     {
-        float gerakKiriKanan = 0f;
-        float gerakAtasBawah = 0f;
+        if (target == null) return;
 
-        if (Input.GetKey(KeyCode.W)) gerakAtasBawah = 1f;
-        if (Input.GetKey(KeyCode.S)) gerakAtasBawah = -1f;
-        if (Input.GetKey(KeyCode.D)) gerakKiriKanan = 1f;
-        if (Input.GetKey(KeyCode.A)) gerakKiriKanan = -1f;
+        // 1. Deteksi Input Tombol WASD
+        float inputX = 0f;
+        float inputY = 0f;
 
-        // W dan S = Bergerak lurus ke Atas dan Bawah dunia game
-        Vector3 geserAtasBawah = Vector3.up * gerakAtasBawah;
+        if (Input.GetKey(KeyCode.D)) inputX = 1f;
+        if (Input.GetKey(KeyCode.A)) inputX = -1f;
+        if (Input.GetKey(KeyCode.W)) inputY = 1f;
+        if (Input.GetKey(KeyCode.S)) inputY = -1f;
 
-        // A dan D = Bergerak ke Kiri dan Kanan mengikuti sudut pandang lensa kamera
-        Vector3 geserKiriKanan = transform.right * gerakKiriKanan;
+        yaw += inputX * kecepatanPutar * Time.deltaTime;
+        pitch += inputY * kecepatanPutar * Time.deltaTime;
+        pitch = Mathf.Clamp(pitch, batasBawahY, batasAtasY);
 
-        Vector3 arahGerakWASD = geserAtasBawah + geserKiriKanan;
-        transform.Translate(arahGerakWASD * kecepatanKamera * Time.deltaTime, Space.World);
-
+        // 2. Deteksi Input Zoom (Scroll Mouse)
         float scroll = Input.GetAxis("Mouse ScrollWheel");
-        if (scroll != 0f && target != null)
+
+        if (scroll != 0f)
         {
-            // Menghitung arah maju (zoom in) dan mundur (zoom out)
-            Vector3 arahZoom = transform.forward * scroll * kecepatanZoom * Time.deltaTime;
-
-            float jarakPrediksi = Vector3.Distance(transform.position + arahZoom, target.position);
-
-            if (jarakPrediksi >= batasDekat)
-            {
-                transform.position += arahZoom;
-            }
-            else if (scroll > 0f)
-            {
-                transform.position += Vector3.up * scroll * kecepatanZoom * Time.deltaTime;
-            }
+            // Scroll mengubah TARGET jarak, bukan langsung jaraknya
+            targetJarak -= scroll * kecepatanZoom;
+            targetJarak = Mathf.Clamp(targetJarak, jarakMinimal, jarakMaksimal);
         }
+
+        // 3. Muluskan (Lerp) Jarak Saat Ini menuju Target Jarak
+        jarakSaatIni = Mathf.Lerp(jarakSaatIni, targetJarak, Time.deltaTime * kehalusanZoom);
     }
 
     void LateUpdate()
     {
-        // Kamera akan selalu fokus memutar lensanya menatap tangan
-        if (target != null)
-        {
-            transform.LookAt(target);
-        }
+        if (target == null) return;
+
+        // Kalkulasi Posisi Kamera Orbit
+        Quaternion rotasi = Quaternion.Euler(pitch, yaw, 0);
+        Vector3 posisiBaru = target.position - (rotasi * Vector3.forward * jarakSaatIni);
+
+        transform.position = posisiBaru;
+        transform.LookAt(target);
     }
 }
