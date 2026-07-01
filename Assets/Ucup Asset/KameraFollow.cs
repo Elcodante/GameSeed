@@ -7,11 +7,11 @@ public class KameraFollow : MonoBehaviour
 
     [Header("Kecepatan & Kehalusan")]
     public float kecepatanPutar = 60f;
-    public float kecepatanZoom = 2f;     // Kecepatan scroll diturunkan agar lebih presisi
-    public float kehalusanZoom = 10f;    // Semakin kecil angkanya, semakin lambat/mulus meluncurnya
+    public float kecepatanZoom = 2f; 
+    public float kehalusanZoom = 10f;
 
     [Header("Batas Zoom (Jarak)")]
-    public float jarakMinimal = 0.8f;    // Disesuaikan dengan rentang yang kamu inginkan
+    public float jarakMinimal = 0.8f;
     public float jarakMaksimal = 5f;
 
     [Header("Batas Rotasi Atas/Bawah")]
